@@ -1,0 +1,10 @@
+.page{
+    display: grid;
+    background-color:  #edeef0;
+    grid-template-columns: 1fr 149px 780px 1fr;
+    grid-template-areas: ". navigation contenti .";
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    padding-top: 10px;
+    overflow-y:hidden;
+}

@@ -1,0 +1,62 @@
+.header{
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+  background-color: rgb(98, 120, 150);
+  height: 45px;
+  line-height: 30px;
+  justify-items: center;
+  align-content: center;
+}
+
+.logo{ 
+  grid-area: logo;
+  grid-column: 2/3;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #f5f5f5;
+  text-shadow: white 0.006em 0.006em 0.007em, #1605fa 1px 1px 1px, #000000 1.5px 1.5px 1.5px;
+  justify-self: end;
+  margin-right: 15px;
+}
+
+.link{
+  font-size: 25px;
+}
+
+.search{
+  grid-area: search;
+  grid-column: 3/4;
+  padding-right: 25px;
+  border: none;
+}
+
+.input{
+  color: #dae2ea;
+  width: 230px;
+  height: 30px;
+  border-radius: 14px;
+  border: none;
+  background: rgba(34, 75, 112, 0.8);
+  padding-left: 5px;
+}
+
+input:focus{
+  border-color: #d3d9de;
+  background-color: #d3d9de;
+  outline: none;
+  color: #000000;
+}
+
+.music{
+  grid-area: music;
+  grid-column: 4/5;
+}
+
+.profile{
+  grid-area: profile;
+  grid-column: 5/6;
+  justify-self: start;
+  margin-left: 55px;
+}

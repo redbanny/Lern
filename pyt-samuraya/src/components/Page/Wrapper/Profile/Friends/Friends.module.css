@@ -1,0 +1,9 @@
+.wrapper{
+  display: grid;
+  background-color: #edeef0;;
+  width: 230px;
+  height: 425px;
+  justify-content: center;
+  margin-top: 10px;
+  overflow: hidden;
+}

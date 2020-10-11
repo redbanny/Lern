@@ -1,0 +1,8 @@
+.wrapperContent{
+    grid-area: contenti;
+    background-color: #edeef0;
+    display: grid;
+    grid-template-columns: 230px 550px;
+    grid-template-areas: "prof description";
+    grid-gap: 10px;
+  }

@@ -1,0 +1,10 @@
+.wrapperContent{
+    width: 930px;
+    grid-area: contenti;
+    min-height: 647px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 300px 630px;
+    margin-top: 5px;
+    position: relative;
+  }

@@ -1,0 +1,51 @@
+.item, .link{
+    width: 300px;
+    display: inline-block;
+    height: 63px;
+    color: #000000;
+}
+.item:first-child{
+    margin-top: 5px;
+}
+
+.link.active{
+    width: 100%;
+    background-color:#627896d1;
+    color: white
+}
+
+.item:hover{
+    background-color: #00143307;
+}
+
+.photo{
+    display: inline-block;
+    width: 54px;
+    height: 55px;        
+    margin-left: 5px;
+    margin-top: 5px;  
+    position: relative;   
+    overflow: hidden;
+}
+
+.profilePhoto{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    position: relative;
+    background-color: inherit;
+    color: transparent;
+}
+
+.description{
+    max-width: 65%;
+    height: 30px;
+    line-height: 20px;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: top;
+    text-overflow: ellipsis;
+    position: relative;
+    overflow: hidden;
+    margin-left: 5px;
+}

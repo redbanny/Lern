@@ -1,0 +1,5 @@
+.description{
+  grid-area: description;
+  background-color: #fff;
+  width: 550px;
+}
