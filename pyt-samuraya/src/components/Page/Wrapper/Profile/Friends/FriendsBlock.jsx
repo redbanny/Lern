@@ -1,8 +1,8 @@
 import React from 'react';
-import friend from './Friends.module.css'
+import friend from './FriendsBlock.module.css'
 import Friend from './Friend/Friend';
 
-const Friends = () => {
+const FriendsBlock = () => {
     return (
       <div className={friend.wrapper}>
         <Friend name='Друзья' count='49' link='/friends'/>
@@ -11,5 +11,5 @@ const Friends = () => {
     );
 }
 
-export default Friends;
+export default FriendsBlock;
  

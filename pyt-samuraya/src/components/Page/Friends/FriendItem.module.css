@@ -1,0 +1,40 @@
+.item{
+    width: 650px;
+    display:flex;
+    height: 100px;
+    color: #000000;
+}
+
+.photo{
+    width: 82px;
+    height: 83px; 
+    position: relative;   
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.profilePhoto{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    background-color: inherit;
+    color: transparent;
+}
+
+.block{
+    max-width: 65%;
+    height: 70px;
+    display: inline-grid;
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.name{
+    white-space: nowrap;
+    vertical-align: top;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

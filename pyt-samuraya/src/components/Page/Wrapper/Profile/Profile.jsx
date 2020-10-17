@@ -1,13 +1,13 @@
 import React from 'react';
 import profile from './Profile.module.css'
 import Photo from './Photo/Photo';
-import Friends from './Friends/Friends';
+import FriendsBlock from './Friends/FriendsBlock';
 
 const Profile = () => {
     return (
         <div className={profile.content}>
           <Photo />
-          <Friends />
+          <FriendsBlock />
         </div>
     );
 }
